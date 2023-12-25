@@ -10,6 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     int days = 30;
@@ -25,4 +26,4 @@ class MyApp extends StatelessWidget {
     );
   }
 
-
+}

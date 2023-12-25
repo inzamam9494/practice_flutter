@@ -8,11 +8,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Practice App"),),
-      ),
-      body: const Center(child: Text("You Learn Flutter on 30 Days"),
+        title: const Text("Practice App"),
       ),
       drawer: const MyDrawer(),
+
+      body: const Center(child: Text("You Learn Flutter on 30 Days"),
+      ),
+      //drawer: const MyDrawer(),
     );
   }
 }
