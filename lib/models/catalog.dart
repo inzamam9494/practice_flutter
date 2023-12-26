@@ -11,7 +11,7 @@ class Item{
 
 final products = [
   Item(id: "inzamam",
-      name: "",
+      name: "iphone 15",
       desc: "",
       price: 689,
       color: "",
